@@ -2,6 +2,7 @@
     "name": "swift-madrid-theme",
     "displayName": "Swift Madrid Theme",
     "description": "Semantic syntax theme for Swift source code",
+    "repository": "https://github.com/kelvin13/vs-swift-madrid-theme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.69.0"
