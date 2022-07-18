@@ -1,0 +1,21 @@
+{
+    "name": "swift-madrid-theme",
+    "displayName": "Swift Madrid Theme",
+    "description": "Semantic syntax theme for Swift source code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Swift Madrid",
+                "uiTheme": "vs-dark",
+                "path": "./themes/madrid.json"
+            }
+        ]
+    }
+}
