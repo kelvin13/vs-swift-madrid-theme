@@ -29,24 +29,32 @@
 			"foreground": "#c8c8c8"
 		},
 		"identifier": "#c8c8c8",
+		"enumMember": "#c8c8c8",
 		"function": "#c8c8c8",
 		"property": "#c8c8c8",
-		"method": "#c8c8c8"
+		"method": "#c8c8c8",
+		"operator": "#c8c8c8"
 	},
 	"tokenColors": 
 	[
 		{
 			"scope": 
 			[
-				"keyword.operator.custom.prefix.swift",
-				"keyword.operator.custom.infix.swift",
-				"keyword.operator.custom.postfix.swift",
-				"keyword.operator.assignment.swift",
+				"keyword.control.await.swift"
+			],
+			"settings":
+			{
+				"foreground": "#ff446d"
+			}
+		},
+		{
+			"scope": 
+			[
 				"entity.name.function.swift"
 			],
 			"settings":
 			{
-				"foreground": "#c8c8c8",
+				"foreground": "#c8c8c8"
 			}
 		},
 		{
@@ -59,12 +67,18 @@
 				"keyword.operator.logical.swift",
 				"keyword.operator.ternary.swift",
 				"keyword.operator.function-result.swift",
+				"keyword.operator.function.variadic-parameter.swift",
 				"keyword.operator.type.function.swift",
-				"entity.name.function.compound-name.swift"
+				"entity.name.function.compound-name.swift",
+				"keyword.operator.type.optional.swift",
+				"keyword.operator.custom.prefix.swift",
+				"keyword.operator.custom.infix.swift",
+				"keyword.operator.custom.postfix.swift",
+				"keyword.operator.assignment.swift"
 			],
 			"settings":
 			{
-				"foreground": "#747474",
+				"foreground": "#747474"
 			}
 		},
 		{
@@ -80,7 +94,7 @@
 			],
 			"settings":
 			{
-				"foreground": "#e355ff",
+				"foreground": "#e355ff"
 			}
 		},
 		
