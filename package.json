@@ -15,7 +15,7 @@
             {
                 "label": "Swift Madrid",
                 "uiTheme": "vs-dark",
-                "path": "./themes/madrid.json"
+                "path": "./themes/madrid-color-theme.json"
             }
         ]
     }
